@@ -20,6 +20,19 @@ public class Principal {
 		p1.addComment(c1);
 		p1.addComment(c2);
 		
+		System.out.println(p1);
+		
+		Comment c3 = new Comment("Boa noite!!");
+		Comment c4 = new Comment("Minha força está com voce!!");
+		
+		Post p2 = new Post(sdf.parse("13/09/2023 19:06:03"), "Assis", "Cidade de Deus", 1000);
+				
+		p2.addComment(c3);
+		p2.addComment(c4);
+		
+		System.out.println(p2);
+
+		
 		
 		
 
